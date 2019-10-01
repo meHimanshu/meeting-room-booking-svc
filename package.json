@@ -1,0 +1,31 @@
+{
+  "name": "meeting-room-booking-svc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "8.1.0",
+    "express": "4.17.1",
+    "husky": "3.0.7",
+    "mongoose": "5.7.3"
+  },
+  "devDependencies": {
+    "morgan-body": "^2.4.8",
+    "nodemon": "^1.19.3",
+    "winston": "3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meHimanshu/meeting-room-booking-svc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meHimanshu/meeting-room-booking-svc/issues"
+  },
+  "homepage": "https://github.com/meHimanshu/meeting-room-booking-svc#readme"
+}
