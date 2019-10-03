@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": false,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "types": [],
+    "outDir": "./dist/src",
+    "preserveConstEnums": true
+  },
+  "exclude": ["**/*.spec.ts", "dist"],
+  "include": ["src", "config"]
+}
