@@ -7,7 +7,7 @@
     "dotenv": "8.1.0",
     "express": "4.17.1",
     "husky": "3.0.7",
-    "mongoose": "5.7.3"
+    "mongoose": "5.7.8"
   },
   "devDependencies": {
     "morgan-body": "^2.4.8",
